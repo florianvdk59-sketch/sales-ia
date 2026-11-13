@@ -4,7 +4,7 @@ from datetime import datetime, date, timedelta
 import streamlit as st
 
 
-load_dotenv()
+
 DB_PATH = os.getenv("SALES_AI_DB", "sales_ai.db")
 
 st.set_page_config(page_title="SALES AI", page_icon="🎯", layout="wide")
