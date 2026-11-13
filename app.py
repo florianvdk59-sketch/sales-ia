@@ -2,7 +2,7 @@
 import os, sqlite3, csv, io
 from datetime import datetime, date, timedelta
 import streamlit as st
-from dotenv import load_dotenv
+
 
 load_dotenv()
 DB_PATH = os.getenv("SALES_AI_DB", "sales_ai.db")
